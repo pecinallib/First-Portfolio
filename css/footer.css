@@ -24,10 +24,56 @@
   line-height: 1.1;
   color: #ffffff;
   margin-bottom: 30px;
+  position: relative;
+}
+
+.footer-contato li {
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .footer-contato li a {
+  text-decoration: none;
   color: #ffffff;
+}
+
+.email::before {
+  content: "";
+  display: block;
+  background: url("/img/o-email.png") no-repeat center;
+  position: absolute;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  left: -60px;
+  top: -5;
+}
+
+.zap::before {
+  content: "";
+  display: block;
+  background: url("/img/whatsapp.png") no-repeat center;
+  position: absolute;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  left: -60px;
+  top: -5;
+}
+
+.insta::before {
+  content: "";
+  display: block;
+  background: url("/img/instagram.png") no-repeat center;
+  position: absolute;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  left: -60px;
+  top: -5;
 }
 
 .footer-copy {
@@ -42,6 +88,7 @@
     gap: 40px;
   }
   .footer-contato li {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    gap: 10px;
   }
 }

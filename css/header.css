@@ -15,11 +15,13 @@
 }
 
 .header-menu a {
-  font-size: 1.125rem;
+  background-color: #ffffff;
+  border-radius: 6px;
+  font-size: 1.3rem;
   line-height: 1.3rem;
   padding: 10px 20px;
   text-decoration: none;
-  color: #141414;
+  color: #000000;
   display: block;
 }
 

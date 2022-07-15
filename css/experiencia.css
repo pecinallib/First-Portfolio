@@ -8,7 +8,7 @@
 }
 
 .experiencia .subtitulo {
-  color: #e0e0e0;
+  color: #000000;
 }
 
 .experiencia-texto {
@@ -16,11 +16,12 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #525252;
+  color: #ffffff;
 }
 
 .experiencia-texto strong {
-  color: #141414;
+  color: #000000;
+  text-decoration: underline;
 }
 
 .estudo {
@@ -28,7 +29,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
   padding: 20px;
-  background: #f5f5f5;
+  background: linear-gradient(rgb(222, 207, 247), rgb(18, 194, 238));
   margin-bottom: 20px;
   border-radius: 6px;
   position: relative;
@@ -39,7 +40,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#1673ee, #76a7f1);
+  background: linear-gradient(#070707, #76a7f1);
   position: absolute;
   top: 20px;
   left: -3px;
@@ -51,7 +52,7 @@
   left: -90px;
   text-align: right;
   width: 80px;
-  color: #525252;
+  color: #000000;
   font-size: 0.875rem;
 }
 
@@ -64,7 +65,7 @@
 .estudo-texto {
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #525252;
+  color: #000000;
 }
 
 .estudo-programas {
@@ -88,9 +89,10 @@
     gap: 40px;
   }
   .experiencia .subtitulo {
-    color: #141414;
+    color: #000000;
   }
   .experiencia-texto {
+    color: #ffffff;
     font-size: 1.25rem;
   }
   .ano-estudo {
